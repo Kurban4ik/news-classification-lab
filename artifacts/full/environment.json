@@ -1,0 +1,71 @@
+{
+  "platform": "Windows",
+  "python": "3.13.7",
+  "gpu": "RTX 5060 Ti",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.6.1",
+    "torch": "2.13.0+cu130",
+    "transformers": "4.57.6",
+    "sentence-transformers": "5.6.0",
+    "datasets": "4.8.5",
+    "bm25s": "0.3.11",
+    "numba": "0.65.1",
+    "lightgbm": "4.6.0",
+    "catboost": "1.2.8",
+    "pyserini": "2.4.0",
+    "pymorphy3": "2.0.6"
+  },
+  "execution": {
+    "project": "news-classification-lab",
+    "status": "passed",
+    "cells": [
+      {
+        "index": 1,
+        "elapsed_seconds": 2.8
+      },
+      {
+        "index": 3,
+        "elapsed_seconds": 37.7
+      },
+      {
+        "index": 5,
+        "elapsed_seconds": 38.2
+      },
+      {
+        "index": 6,
+        "elapsed_seconds": 66.9
+      },
+      {
+        "index": 8,
+        "elapsed_seconds": 66.9
+      },
+      {
+        "index": 9,
+        "elapsed_seconds": 67.6
+      },
+      {
+        "index": 11,
+        "elapsed_seconds": 151.5
+      },
+      {
+        "index": 13,
+        "elapsed_seconds": 151.5
+      },
+      {
+        "index": 14,
+        "elapsed_seconds": 313.2
+      },
+      {
+        "index": 15,
+        "elapsed_seconds": 3057.4
+      },
+      {
+        "index": 17,
+        "elapsed_seconds": 3057.5
+      }
+    ],
+    "seconds": 3058.9
+  }
+}

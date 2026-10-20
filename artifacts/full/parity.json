@@ -1,0 +1,70 @@
+{
+  "reference_catboost_accuracy": 0.9012565242605838,
+  "reference_catboost_macro_f1": 0.723403,
+  "reference_tfidf_accuracy": 0.826406,
+  "reference_tfidf_macro_f1": 0.523546,
+  "measured": {
+    "BM25 + CatBoost": {
+      "macro": 0.7234031350062076,
+      "micro": 0.9012565242605838,
+      "weighted": 0.9009641974563665,
+      "acc_macro": 0.9012565242605838
+    },
+    "Custom TF-IDF + LogisticRegression": {
+      "macro": 0.5240162589224531,
+      "micro": 0.8266189831819061,
+      "weighted": 0.8208179098930002,
+      "accuracy": 0.8266189831819061
+    }
+  },
+  "protocol": "Original full-data split and algorithms; Java Lucene, 3 fields, 20 neighbors; LR tolerance tightened to 1e-7",
+  "tfidf_optimizer": {
+    "C": 1.0,
+    "solver": "lbfgs",
+    "tol": 1e-07,
+    "max_iter": 2000,
+    "n_iter": 1419
+  },
+  "comparison_checks": [
+    {
+      "project": "news-classification-lab",
+      "metric": "BM25 + CatBoost test accuracy",
+      "reference": 0.901257,
+      "measured": 0.9012565242605838,
+      "rounding_tolerance": 5e-07,
+      "passed": true
+    },
+    {
+      "project": "news-classification-lab",
+      "metric": "BM25 + CatBoost macro F1",
+      "reference": 0.723403,
+      "measured": 0.7234031350062076,
+      "rounding_tolerance": 5e-07,
+      "passed": true
+    },
+    {
+      "project": "news-classification-lab",
+      "metric": "Original TF-IDF test accuracy",
+      "reference": 0.826406,
+      "measured": 0.8266189831819061,
+      "rounding_tolerance": 5e-07,
+      "passed": true
+    },
+    {
+      "project": "news-classification-lab",
+      "metric": "Original TF-IDF macro F1",
+      "reference": 0.523546,
+      "measured": 0.5240162589224531,
+      "rounding_tolerance": 5e-07,
+      "passed": true
+    },
+    {
+      "project": "news-classification-lab",
+      "metric": "Original TF-IDF weighted F1",
+      "reference": 0.820669,
+      "measured": 0.8208179098930002,
+      "rounding_tolerance": 5e-07,
+      "passed": true
+    }
+  ]
+}

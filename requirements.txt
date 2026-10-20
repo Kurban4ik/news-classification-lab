@@ -1,0 +1,15 @@
+numpy>=1.26,<3
+pandas>=2.2,<4
+scipy>=1.13,<2
+scikit-learn==1.6.1
+pyserini==2.4.0
+pyjnius
+catboost>=1.2,<2
+pymorphy3
+pandarallel
+tqdm
+matplotlib
+joblib
+pyarrow
+jupyterlab
+nbconvert

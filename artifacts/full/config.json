@@ -1,0 +1,10 @@
+{
+  "source": "TFIDF_BM25_Windows_refactored (1).ipynb",
+  "seed": 42,
+  "test_fraction": 0.07,
+  "reference_fraction_of_train": 0.9,
+  "split_sha256": "a8af3ce0af2888c85a1b199fa8d4ecc1d95d3700ffa5adc30a0805a945f90ebd",
+  "bm25_k": 20,
+  "k1": 1.2,
+  "b": 0.75
+}

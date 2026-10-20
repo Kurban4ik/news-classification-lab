@@ -1,0 +1,15 @@
+{
+  "source_notebook": {
+    "file": "restart2/TFIDF_BM25_Windows_refactored (1).ipynb",
+    "bytes": 137327,
+    "sha256": "0210f7b695a472e470456b1f4cb880414c12bc9541e5a49145c5917bab99d1b9"
+  },
+  "input_files": [
+    {
+      "file": "restart2/lenta-ru-news.csv",
+      "bytes": 2084746431,
+      "sha256": "08212d64a4f45985274f637fabfe26768186ba102ccafa116a7cc3221672a622"
+    }
+  ],
+  "initial_weights": []
+}

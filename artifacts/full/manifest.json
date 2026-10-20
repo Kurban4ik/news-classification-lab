@@ -1,0 +1,17 @@
+{
+  "sha256": {
+    "catboost.cbm": "98ecdebf88fc5672c29b8dedf31127607d6683f380b22214af16f312c7b73561",
+    "catboost_metrics.json": "03ec32a34b1fa9de0e62b9b9e103e1c29ffe7a205b7b12b166affaec589c2cb3",
+    "catboost_predictions.csv": "e6b0068e75fd667da3cf3ccd50d1fffa06634aaed15622a71eda6f68d06b1787",
+    "classification_report.json": "1f88be315587c2bb80d4fc23a556ebe52c196eca3b1586ff80f44f10907672dc",
+    "comparison.png": "7c61688851779a8c5da50967e839c0e088b1b93cad54131d441f991b809bd7c6",
+    "config.json": "11439eba20e9499e7012a01af68eb85357d0dccc23b89efdbdcd83c6950f6edf",
+    "confusion_matrix.csv": "6fdcea4ce69098f80547243527935418c877519af6a7c7e056e0460feaeda0f5",
+    "environment.json": "c5195d7a2c611bbf09f9609d9fad69ab26479a758ffe2c866de9c3d5a1b1af4d",
+    "input_counts.json": "125e04206815e2b0aa0ffe14b8c7bd3f619686640e4914eac6f2f209437e232a",
+    "metrics.json": "6e7a65c40d9bc6621f5aedb60ff3d38e3fcf836e13786513824388cc80b9905c",
+    "parity.json": "f73fdda4de78b975e6b42a6dd0290aeb36d79183b6590f3f755c28f83f2434fa",
+    "provenance.json": "031c857c59e0deb6f4ef76540a351da0f03dd0689caf334da7658177debc20a1",
+    "tfidf_metrics.json": "3072349d72b00525aae61e7cb8bf0c5fb46a0c368c4b595c090866d2a59c7c58"
+  }
+}

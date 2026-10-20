@@ -1,0 +1,7 @@
+{
+  "source_rows": 800975,
+  "labelled_rows": 738973,
+  "reference_rows": 618518,
+  "catboost_train_rows": 68725,
+  "test_rows": 51730
+}
